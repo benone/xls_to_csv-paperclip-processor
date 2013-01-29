@@ -36,15 +36,18 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<paperclip>, [">= 2.6.0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
+      s.add_development_dependency(%q<shellwords>, [">= 0"])
     else
       s.add_dependency(%q<paperclip>, [">= 2.6.0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
+      s.add_dependency(%q<shellwords>, [">= 0"])
     end
   else
     s.add_dependency(%q<paperclip>, [">= 2.6.0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
+    s.add_dependency(%q<shellwords>, [">= 0"])
   end
 end
 
